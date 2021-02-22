@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <!--  Josefin Sans Font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <!-- Titillium Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap" rel="stylesheet">
+<!-- Hover-CSS -->
+<link rel="stylesheet" href="/assets/Hover-CSS/css/hover.css">
     <!-- Main style sheet link -->
     <link rel="stylesheet" href="/style.css" type="text/css">
     <title>Jack Rigan</title>
@@ -18,7 +22,7 @@
     <header>
 <nav>
     <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
@@ -26,7 +30,7 @@
 </nav>
     </header>
 
-    <section class="main-page">
+    <section class="main-page" id="home">
         <div class="self-port">
             <img src="/Images/main-image-stock.jpeg" alt="Picture-of-Me">
         </div>
@@ -42,16 +46,51 @@
             <p>Hi, Im Jack, a 20 year old <span id="webDeveloper">Web Developer</span> based in <span id="city">Salt Lake City, Utah.</span> Currenlty I am working on achieving my dream of becoming a <span id="fullStack">Software Engineer</span></p>
         </div>
 
-
-
 <div class="more-button">
-    <a href="#Projects">More</a>
+    <a href="#Projects" class="hvr-underline-from-center">More</a>
 </div>
-
-
-
     </section>
 
+<section class="projects">
+    <h1>Projects</h1>
+    <hr>
+<div class="web-display">
+
+<div class="display-1">
+<h2 class="hvr-underline-from-center">Thinkful</h2>
+<div class="display-1-container hvr-bounce-to-bottom">
+    <span class="iconify" data-icon="bx:bx-library" data-inline="false"></span>
+
+</div>
+<h3>Local Library <br> Project</h3>
+</div>
+
+<div class="display-2">
+<div class="display2-container hvr-bounce-to-bottom">
+    <span class="iconify" data-icon="ant-design:code-sandbox-outlined" data-inline="false"></span>
+</div>
+<h3>Decoder Ring <br> Project</h3>
+</div>
+
+<section class="about-me">
+<h1>About Me</h1>
+<hr>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
     
 </body>
 </html>
