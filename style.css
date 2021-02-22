@@ -68,7 +68,7 @@ a:active {
 
 
 body {
-    background-color: var(--main-bg-color);
+    /* background-color: var(--main-bg-color); */
     background-image: url(Images/background-2.png);
     background-size: cover;
     background-repeat: no-repeat;
