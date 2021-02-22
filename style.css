@@ -46,6 +46,9 @@ table {
 	border-spacing: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* CSS RESET END */
 a:active {
@@ -327,6 +330,12 @@ h3:hover {
 
 /* Projects section end */
 
+
+
+
+
+
+
 /* About Me Section */
 .about-me {
     min-height: 1000px;
@@ -338,6 +347,13 @@ h3:hover {
     background-size: cover;
 }
 
+.about-me-img .iconify {
+    height: 90px;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+
+}
 
 .about-me h1 {
 
