@@ -58,7 +58,7 @@ a:active {
 /* Colors */
 :root {
     --main-bg-color: #020713;
-    --main-text-color: #DDF4D0;
+    --main-text-color: white;
     --hover-text-color: #0f4c81;
     --header-bg-color: rgb(82,94,101,0.2);
 }
@@ -176,12 +176,12 @@ header nav ul li a {
 }
 
 #webDeveloper {
-    color: orange;
+    color: lightcyan;
     
 }
 
 #city {
-    color: lightblue;
+    color: lightcyan;
 }
 
 .more-button {
