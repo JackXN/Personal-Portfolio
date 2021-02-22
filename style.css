@@ -69,7 +69,7 @@ a:active {
 
 body {
     background-color: var(--main-bg-color);
-    background-image: url(/Images/background-2.png);
+    background-image: url(Images/background-2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -110,7 +110,7 @@ header nav ul li a {
 
 .main-page {
    min-height: 500px;
-    background-image: url(/Images/background-2.png);
+    background-image: url(Images/background-2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,7 +213,7 @@ header nav ul li a {
     text-align: center;
     position: relative;
     top: 200px;
-    background-image: url(/Images/background-2.png);
+    background-image: url(Images/background-2.png);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -342,7 +342,7 @@ h3:hover {
     text-align: center;
     position: relative;
     top: 200px;
-    background-image: url(/Images/background-2.png);
+    background-image: url(Images/background-2.png);
     background-attachment: fixed;
     background-size: cover;
 }
