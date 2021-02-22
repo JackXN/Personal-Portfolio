@@ -83,9 +83,22 @@ header {
     height: 40px;
 }
 
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: block;
+}
+
 header nav {
     display: flex;
     justify-content: center;
+    
     
 }
 
@@ -212,7 +225,7 @@ header nav ul li a {
 
 
 .projects {
-    min-height: 1000px;
+    min-height: 500px;
     text-align: center;
     position: relative;
     top: 200px;
@@ -230,6 +243,7 @@ header nav ul li a {
     line-height: 40px;
     font-style: normal;
     cursor: pointer;
+    
 }
 
  hr {
@@ -249,6 +263,8 @@ header nav ul li a {
 
 .display-1 {
     color: white;
+    text-align: center;
+    display: block;
     
     
 }
