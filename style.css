@@ -68,7 +68,7 @@ a:active {
 
 
 body {
-    /* background-color: var(--main-bg-color); */
+    background-color: var(--main-bg-color);
     background-image: url(Images/background-2.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -98,6 +98,8 @@ nav a {
 header nav {
     display: flex;
     justify-content: center;
+    position: fixed;
+    overflow-x: hidden;
     
     
 }
@@ -224,7 +226,7 @@ header nav ul li a {
 
 
 
-.projects {
+/* .projects {
     min-height: 500px;
     text-align: center;
     position: relative;
@@ -232,8 +234,34 @@ header nav ul li a {
     background-image: url(Images/background-2.png);
     background-attachment: fixed;
     background-size: cover;
+} */
+
+
+.projects {
+    /* display: flex; */
+    /* flex-direction: column; */
+    position: relative;
+    top: 100px;
+   text-align: center;
+   padding: 20px;
+
 }
 
+.projects h3 {
+    font-family: 'Josefine Sans',sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+
+}
+
+.projects .iconify {
+    height: 120px;
+    width: 120px;
+    color: white;
+}
 
 .projects h1 {
     color: white;
@@ -252,100 +280,34 @@ header nav ul li a {
 }
 
 
-
-
-
-.web-display {
-    justify-content: center;
+.project-1 {
     position: relative;
-    top: 50px;
-}
-
-.display-1 {
-    color: white;
-    text-align: center;
-    display: block;
-    
-    
-}
-.display-1 h2 {
-    color: white;
-    font-size: 25px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    line-height: 40px;
-    font-style: normal;
-    cursor: pointer;
-
-}
-
-
-
-.display-1-container {
-
-    background-color: var(--header-bg-color);
-    height: 200px;
-    width: 200px;
-    padding: 50px;
+    top: 20px;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 30px;
-    cursor: pointer;
+    height: 300px;
+    max-width: 500px;
+    background: var(--header-bg-color);
 }
 
-
-.display-1 h3 {
+.project-2 {
    position: relative;
-   top: 50px;
-}
-
-h3 {
-    font-size: 25px;
-    font-family: 'Josefin Sans';
-    font-weight: 700;
-    transition: background 1s;
-    cursor: pointer;
-    padding: 10px;
-}
-
-h3:hover {
-    background-color: var(--header-bg-color);
-}
-
-.iconify {
-    height: 150px;
-    width: 150px;
-    transition: color 1s;
-}
-
-
-.iconify:hover {
-    color: lightblue;
-}
-
-.display-2 {
-    margin-top: 100px;
-    display: block;
+   top: 40px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 300px;
+    max-width: 500px;
+    background: var(--header-bg-color);
 }
 
-.display2-container {
-    background-color: var(--header-bg-color);
-    height: 200px;
-    width: 200px;
-    padding: 50px;
-    align-items: center;
-    justify-content: center;
-    /* position: relative; */
-    cursor: pointer;
-}
  
-.display-2 h3 {
-    position: relative;
-    top: 50px;
-}
+
+
 
 /* Projects section end */
 
@@ -365,6 +327,17 @@ h3:hover {
     background-attachment: fixed;
     background-size: cover;
 }
+
+
+
+.about-me .iconify {
+    height: 120px;
+    width: 120px;
+}
+
+
+
+
 .about-me h1 {
     color: white;
     font-size: 32px;
@@ -415,7 +388,7 @@ h3:hover {
 #site-footer{
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(Images/background-2.png);
+    /* background-image: url(Images/background-2.png); */
     position: relative;
     top: 200px;
     padding: 2em 0;
