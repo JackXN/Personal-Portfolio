@@ -16,6 +16,7 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 
 .contact-form {
@@ -37,6 +38,8 @@ font-style: bold;
 
 
 
+
+
 form input {
     border: solid white 0.2px;
     border-radius: 20px;
@@ -47,6 +50,7 @@ form input {
 textarea {
     border: solid white 0.2px;
     border-radius: 20px;
+    height: 100px;
 }
 
 button {
@@ -54,4 +58,30 @@ button {
     border: none;
     border-radius: 10%;
     background: orange;
+}
+
+
+
+
+.text-form {
+position: relative;
+top: 50px;
+height: 100px;
+}
+
+
+.text-form button {
+    margin-top: 30px;
+}
+
+input[type='text'] {
+    height: 30px;
+}
+
+@media screen and (min-width: 460px ) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
