@@ -1514,7 +1514,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgb(82,94,101, 0.1);;
+  background: rgb(82,94,101, 0.3);;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;

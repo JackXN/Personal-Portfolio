@@ -51,6 +51,9 @@ html {
 }
 
 /* CSS RESET END */
+a {
+    text-decoration: none;
+}
 a:active {
     color: blue;
 }
@@ -254,6 +257,7 @@ header nav ul li a {
     font-size: 20px;
     position: relative;
     top: 20px;
+    color: white;
 
 }
 
@@ -291,7 +295,13 @@ header nav ul li a {
     height: 300px;
     max-width: 500px;
     background: var(--header-bg-color);
+    /* transition: background 1s; */
+    cursor: pointer;
 }
+
+/* .project-1:hover {
+    background: lightcyan;
+} */
 
 .project-2 {
    position: relative;
@@ -305,7 +315,7 @@ header nav ul li a {
     background: var(--header-bg-color);
 }
 
- 
+
 
 
 
@@ -388,7 +398,7 @@ header nav ul li a {
 #site-footer{
     background-attachment: fixed;
     background-size: cover;
-    /* background-image: url(Images/background-2.png); */
+    background-image: url(Images/background-2.png);
     position: relative;
     top: 200px;
     padding: 2em 0;
@@ -409,6 +419,7 @@ header nav ul li a {
 }
 
 .social {
+    
     min-height: 500px;
     text-align: center;
 }
