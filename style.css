@@ -69,7 +69,9 @@ a:active {
 
 /* Mobile View */
 
-
+.iconify {
+    color: white;
+}
 body {
     background-color: var(--main-bg-color);
     background-image: url(Images/background-2.png);
@@ -127,6 +129,7 @@ header nav ul li a {
 
 
 .main-page {
+text-align: center;
    min-height: 500px;
     background-image: url(Images/background-2.png);
     background-position: center;
@@ -202,25 +205,24 @@ header nav ul li a {
     color: lightcyan;
 }
 
-.more-button {
-    text-align: center;
-}
-
-
-
-
-.more-button a {
-    text-decoration: none;
-    color: var(--main-text-color);
+#more-button {
     position: relative;
-    top: 100px;
-    font-size: 20px;
-    padding: 15px 30px;
-    color: var(--main-text-color);
-    font-family: 'Josefin Sans', sans-serif;
+    top: 125px;
+    border: solid white 1px;
+    padding: 15px 25px;
+    color: white;
+    font-family: 'Josefine Sans', sans-serif;
     font-weight: 400;
-    
+    font-size: regular;
+    transition: border 2s;
 }
+
+
+
+#more-button:hover {
+    border: none;
+}
+
 
 
 
@@ -244,7 +246,7 @@ header nav ul li a {
     /* display: flex; */
     /* flex-direction: column; */
     position: relative;
-    top: 100px;
+    top: 450px;
    text-align: center;
    padding: 20px;
 
@@ -332,7 +334,7 @@ header nav ul li a {
     min-height: 500px;
     text-align: center;
     position: relative;
-    top: 450px;
+    top: 850px;
     background-image: url(Images/background-2.png);
     background-attachment: fixed;
     background-size: cover;
