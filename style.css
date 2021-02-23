@@ -211,20 +211,17 @@ text-align: center;
 #more-button {
     position: relative;
     top: 125px;
-    border: solid white 1px;
+    /* border: solid white 1px; */
     padding: 15px 25px;
     color: white;
     font-family: 'Josefine Sans', sans-serif;
     font-weight: 400;
     font-size: regular;
-    transition: border 2s;
+    
 }
 
 
 
-#more-button:hover {
-    border: none;
-}
 
 
 
@@ -566,3 +563,9 @@ body {
 
 
 /* Desktop media queries */
+
+@media screen and (min-width: 1500px) {
+  .intro-text {
+      width: 650px;
+  }
+}

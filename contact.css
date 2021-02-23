@@ -1,0 +1,57 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(/Images/background-2.png);
+}
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-form {
+    padding: 100px;
+     height: 900px;
+    width: 100%;
+    background: rgba(17, 65, 95, 0.1)
+}
+
+
+form label {
+color: white;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 400;
+font-style: bold;
+
+
+}
+
+
+
+form input {
+    border: solid white 0.2px;
+    border-radius: 20px;
+    
+}
+
+
+textarea {
+    border: solid white 0.2px;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10%;
+    background: orange;
+}
