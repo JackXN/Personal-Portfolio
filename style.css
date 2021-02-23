@@ -244,7 +244,7 @@ text-align: center;
 
 .projects {
      display: flex;
-     flex-direction: column; 
+     /* flex-direction: column;  */
     position: relative;
     top: 450px;
    text-align: center;
