@@ -134,7 +134,9 @@ header nav ul li a {
     font-size: 23px;
 }
 
-
+nav ul li a:hover {
+    color: #0f4c81;
+}
 
 
 main {
