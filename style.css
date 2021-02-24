@@ -501,7 +501,15 @@ form {
     text-align: center;
 }
 
-
+.textarea-edit {
+    margin-top: 30px;
+    border: solid white 1px;
+    font-size: 20px;
+    min-height: 40px;
+    border-radius: 4px;
+    margin-right: 5px;
+    text-align: center;
+}
 .contact-form button {
    color: white;
    border: solid white 1px;
