@@ -347,6 +347,45 @@ main .self-port img {
 
 }
 
+.project-links {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+.project-links a {
+    font-family: 'Titrillium Web', sans-serif; 
+    font-size: 16px;
+    color: white;
+    border: solid white 1px;
+    padding: 10px;
+    transition: color 0.3s, border 0.3s;
+}
+
+.project-links a:hover {
+    color: lightskyblue;
+    border: lightskyblue 1px solid;
+}
+
+
+.project-1-links {
+    position: relative;
+    top: 43px;
+}
+
+
+.project-1-links a:nth-child(1) {
+    /* color: orange; */
+    text-decoration: line-through;
+}
+
+.project-2-links {
+    position: relative;
+    top: 63px;
+}
+
 
 #project-des {
     background: var(--header-bg-color);
