@@ -81,7 +81,7 @@ a:active {
 
 .wrapper {
     height: 100%;
-    
+    text-align: center;
     background-image: url(Images/background-2.png);
     background-position: center;
     background-size: cover;
@@ -120,7 +120,7 @@ header nav ul {
     list-style: none;
     position:fixed ;
     
-    
+    text-align: center;
     
 }
 header nav ul li a {
