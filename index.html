@@ -19,6 +19,7 @@
     <title>Jack Rigan</title>
 </head>
 <body>
+    <div class="wrapper"> 
     <header>
 <nav >
     <ul>
@@ -29,8 +30,7 @@
     </ul>
 </nav>
     </header>
-
-    <section class="main-page" id="home">
+<main>
         <div class="self-port">
             <img src="Images/pictureofme.jpeg" alt="Picture-of-Me">
         </div>
@@ -49,30 +49,31 @@
 
     <a href="#proj" class="hvr-underline-from-center" id="more-button">More</a>
 
-    </section>
 
+</main>
 <section class="projects" id="proj">
 
 <h1>Projects</h1>
 <hr>
 <div class="project-display">
 
-
+<h1>Thinkful</h1>
+<hr>
 
 <a href="https://github.com/JackXN/Project-Local-Library" target="_blank">
 <div class="project-1 hvr-bounce-to-bottom">
     <span class="iconify" data-icon="bx:bx-library" data-inline="false"></span>
     <h3>Local Library <br> Project</h3>
 </div>
-<h3>A vanilla JavaScript project. Organizing a library dashboard to display available and unavailable books in the library</h3>
 </a>
+<p id="project-des">A vanilla JavaScript project. Organizing a library dashboard to display available and unavailable books in the library</p>
 <a href="https://github.com/JackXN/Decoder-ring-project" target="_blank">
 <div class="project-2 hvr-bounce-to-bottom">
     <span class="iconify" data-icon="ant-design:code-sandbox-outlined" data-inline="false"></span>
     <h3>Decoder Ring <br> Project</h3>
-</div>
-<h3>A vanilla JS project, intended to create a secret language and decode it</h3>
+</div>  
 </a>
+<p id="project-des">A vanilla JS project that encodes and decodes all kind of fun messages!</p>
 </div>
 
 
@@ -91,42 +92,90 @@
 <p>I was born and raised in a small sea side village in Tonsberg Norway. I moved to the states when i was 13 years old and have been residing in Salt Lake City, Utah,  since. Nowadays i spend my time learning all i can about JavaScript and web development. I have fallen inlove with code, as it gives me the ability to create things i never thought i'd be able to. </p>
 
 
+</section>      <!--About me section end-->
 
+<section class="contact">
+    <h1>Leave me a message</h1>
+    <hr>
 
-<footer id="site-footer">
-    <img src="assets/Branding/JR-logo.png" alt="" style="height: 100px; width: 100px;">
+<div class="contact-form">
 
-    <div class="social">
-
-        <div class="social-link">
-            <a href="https://github.com/JackXN" target="_blank" class="hvr-grow-shadow"><span class="iconify" data-icon="codicon:github-alt" data-inline="false"></span></a>
-           
-           
-            <a href="https://twitter.com/home" target="_blank" class="hvr-grow-shadow"><span class="iconify" data-icon="feather:twitter" data-inline="false"></span></a>
-            
-            
-            <a href="https://www.linkedin.com/in/jack-rigan-2395811ba/"  
-            target="_blank"
-            class="hvr-grow-shadow"><span class="iconify" data-icon="grommet-icons:linkedin-option" data-inline="false"></span></a>
-        </div>
-
-        <a href="#">riganjack40@gmail.com</a>
-
+    <form action="https://formspree.io/f/mnqoywra" method="POST">
+    <div class="first-name form-edit">
+        
+        <input type="text" id="fName" name="firstname" placeholder="Your first name...">
     </div>
-     
+        <br>
 
-<p><span>&#169;</span>Jack Rigan 2020</p>
-
-</footer>
-
-</section>
-
+        <div class="last-name form-edit">
+<input type="text" name="lastname" id="lName" placeholder="Your last name...">
+</div>
+<br>
 
 
+<div class="emails form-edit">
+<input type="text" name="emailadress" id="email" placeholder="Your email...">
+</div>
 
+
+<button type="submit">Submit</button>
 
     
 
+   
+    
+    
+    
+    </form>
+
+
+</div>  <!--Contact form div end-->
+
+
+
+
+
+
+<footer>
+    <div class="footer-content">
+<img src="assets/Branding/JR-logo.png" alt="jackriganlogo" height="120px" width="120px">
+
+
+<a href="#">riganjack40@gmail.com</a>
+
+
+
+<div class="social-links">
+
+
+    <!-- Github -->
+    <a href="https://github.com/JackXN" target="_blank">
+    <span class="iconify" data-icon="codicon:github-alt" data-inline="false"></span>
+</a>
+
+<!-- Twitter -->
+<a href="https://twitter.com/JackXN801" target="_blank">
+<span class="iconify" data-icon="akar-icons:twitter-fill" data-inline="false"></span>
+</a>
+
+
+
+<!-- Linked in -->
+<a href="https://www.linkedin.com/in/jack-rigan-2395811ba/" target="_blank">
+<span class="iconify" data-icon="dashicons:linkedin" data-inline="false"></span>
+</a>
+
+</div>
+
+</div>
+
+</footer>
+
+
+
+</section>
+
+</div> <!--Wrapper div ebd-->
 
 
 
