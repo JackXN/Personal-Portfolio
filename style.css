@@ -81,7 +81,7 @@ a:active {
 
 .wrapper {
     height: 100%;
-    background-color: red;
+    
     background-image: url(Images/background-2.png);
     background-position: center;
     background-size: cover;
