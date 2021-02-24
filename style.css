@@ -138,9 +138,12 @@ header nav ul li a {
 
 
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    flex-direction: column;
    min-height: 500px;
-
     color: var(--main-text-color);
 }
 
@@ -568,10 +571,10 @@ footer {
 
 @media screen and (min-width: 700px) {
 
-
+/* 
 body {
     padding: 150px;
-}
+} */
 
     header {
         font-size: 30px;
@@ -627,5 +630,15 @@ body {
       width: 650px;
   }
 
+
+
+  .about-me {
+      text-align: center;
+  }
+.about-me p {
+  min-width: 300px;
+  padding-left: 800px;
+  padding-right: 800px;
+}
 
 }
