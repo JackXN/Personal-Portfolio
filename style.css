@@ -207,6 +207,7 @@ main .self-port img {
     font-weight: 700;
     text-transform: uppercase;
     font-style: semi-bold;
+    color:#000000 ;
 }
 
 .title h2 {
@@ -216,6 +217,7 @@ main .self-port img {
     text-transform: uppercase;
     font-style: italic;
     font-weight: 400;
+    color: #000000;
 }
 
 
@@ -231,7 +233,7 @@ main .self-port img {
     line-height: 30px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
-    color: var(--main-text-color);
+    color: #000000;
 }
 
 #webDeveloper {
