@@ -717,6 +717,7 @@ header  nav ul li a {
  .intro-text p {
     padding:260px;
     padding-top: 50px; 
+    color: white;
 }
 
 .projects {
