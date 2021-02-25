@@ -313,7 +313,7 @@ main .self-port img {
 
 }
 
-.projects h2 {
+.projects h3 {
     font-family: 'Josefine Sans',sans-serif;
     font-weight: 700;
     font-style: bold;
@@ -379,15 +379,6 @@ main .self-port img {
     cursor: pointer;
 }
 
-.project-2 h2 {
-    font-family: 'Josefine Sans',sans-serif;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 20px;
-    position: relative;
-    top: 20px;
-    color: white;
-}
 
 .project-display{
     display: block;
@@ -397,7 +388,7 @@ main .self-port img {
     margin: 0;
 }
 
-.project-display h2:nth-child(1) {
+.project-display h1:nth-child(1) {
     margin-top: 50px;
     font-size: 26px;
 }
@@ -435,18 +426,17 @@ main .self-port img {
     border: lightskyblue 1px solid;
 }
 
-.project-1 h2 {
-    font-family: 'Josefine Sans',sans-serif;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 20px;
+
+.project-1-links {
     position: relative;
-    top: 20px;
-    color: white;
+    top: 43px;
 }
 
 
-
+.project-1-links a:nth-child(1) {
+    /* color: orange; */
+    text-decoration: line-through;
+}
 
 .project-2-links {
     position: relative;
