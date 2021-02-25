@@ -80,6 +80,14 @@ a:active {
 /* Colors end */
 
 
+body {
+    background-color: #020714;
+}
+
+html {
+    background-color: #020714;
+}
+
 
 .screenReader {
     visibility: hidden;
