@@ -554,11 +554,19 @@ main .self-port img {
 form {
     padding-top: 20px;
 }
+form label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 2px var(--header-bg-color);
+    font-weight: 700;
+}
 .form-edit {
     font-family: 'titrillium web', sans-serif;
     font-size: 15px;
     margin-bottom: 30px;
     text-align: center;
+    
 }
 
 .form-edit input {
