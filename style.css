@@ -53,7 +53,8 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 500px;
+    min-height: 500px; 
+    width: 100%;
 }
 
 /* CSS RESET END */
@@ -81,6 +82,7 @@ a:active {
 
 .wrapper {
     height: 100%;
+    width: 100%;
     text-align: center;
     background-image: url(Images/background-2.png);
     background-position: center;
@@ -106,14 +108,43 @@ nav {
 
 
 
+header {
+    display: flex;
+    flex-direction: row;
+    background-image: url(Images/background-2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+header nav ul{
+    display: flex;
+    
+}
+
+header nav ul li a  {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Josefin Sans',sans-serif;
+    margin: 0 20px 0 0;
+    /* padding-top: 13px; */
+    font-size: 16px;
+
+}
 
 
 
-header nav ul {
+
+
+/* header nav ul {
     margin-top: 20px;
     /* background: var(--header-bg-color); */
     /* background-color: rgba(19, 52, 138, 0.3);; */
-    text-align: center;
+    /* text-align: center;
     display: flex;
     justify-content: space-around;
     padding-left: 0;
@@ -122,8 +153,8 @@ header nav ul {
     
     text-align: center;
     
-}
-header nav ul li a {
+} */
+/* header nav ul li a {
     color: white;
     text-align: center;
     display: flex;
@@ -132,7 +163,7 @@ header nav ul li a {
     margin: 0 20px 0 0;
     padding-top: 13px;
     font-size: 23px;
-}
+} */
 
 nav ul li a:hover {
     color: #0f4c81;
@@ -617,6 +648,23 @@ footer {
 
 /* Media queries */
 
+
+@media screen and (min-width: 300px) {
+    
+
+    header nav ul {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        left: 20px;
+    }
+}
+    
+
+
+
+
 /* Ipads,Tablets */
 
 @media screen and (min-width: 700px) {
@@ -626,10 +674,19 @@ body {
     padding: 150px;
 } */
 
-    header {
-        font-size: 30px;
-        background: none;
-    }
+header {
+    min-height: 10px;
+
+
+}
+
+header  nav ul li a {
+    font-size: 24px;
+}
+
+    
+
+   
 
    
 
@@ -643,10 +700,16 @@ body {
 
 
 #more-button {
-    font-size: 32px;
-    padding: 40px;
+    font-size: 26px;
+    color: red;
+    
 }
 
+
+ .intro-text p {
+    padding:260px;
+    padding-top: 50px; 
+}
 
 .projects {
     display: flex;
@@ -666,6 +729,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 100px;
 }
 
 
@@ -676,19 +740,38 @@ body {
 /* Desktop media queries */
 
 @media screen and (min-width: 1000px) {
-  .intro-text {
-      width: 650px;
-  }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
-  .about-me {
-      text-align: center;
-  }
+.intro-text p {
+    width: 400px;
+    margin-top: 20px;
+}
+
+
+#more-button {
+    font-size: 24px;
+    border: solid white 1px;
+    border-radius: 4px;
+    padding: 20px 20px;
+}
+
+
+.about-me {
+    text-align: center;
+  
+}
+
 .about-me p {
-  min-width: 300px;
-  padding-left: 800px;
-  padding-right: 800px;
+    color: white;
+   align-self: center;
+  font-size: 19.2px;
+  padding: 700px;
+  padding-top: 20px;
 }
 
 }
