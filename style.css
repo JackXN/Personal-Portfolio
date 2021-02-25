@@ -390,7 +390,7 @@ main .self-port img {
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 90px;
     
 
 }
@@ -433,6 +433,8 @@ main .self-port img {
     position: relative;
     top: 63px;
 }
+
+
 
 
 #project-des {
@@ -556,6 +558,7 @@ main .self-port img {
 }
 
  .contact-form {
+
      margin-top: 30px;
      display: flex; 
      flex-direction: column;
@@ -584,6 +587,7 @@ form label {
     font-size: 15px;
     margin-bottom: 30px;
     text-align: center;
+    background: none;
     
 }
 
@@ -595,6 +599,8 @@ form label {
     border-radius: 4px;
     margin-right: 5px;
     text-align: center;
+    background: none;
+    color: white;
 }
 
 .textarea-edit {
@@ -605,6 +611,8 @@ form label {
     border-radius: 4px;
     margin-right: 5px;
     text-align: center;
+    background: none;
+    color: white;
 }
 .contact-form button {
    color: white;
@@ -614,8 +622,16 @@ font-family: 'titrillium web', sans-serif;
 font-weight: 700;
    padding: 10px 20px;
    margin-bottom: 20px;
+   background: none;
    /* margin: 30px; */
 
+}
+
+textarea {
+    background: none;
+    color: white;
+    font-family: 'titrillium web' sans-serif;
+    text-align: center;
 }
 
 
@@ -710,15 +726,6 @@ header  nav ul li a {
     font-size: 24px;
 }
 
-    
-
-   
-
-   
-
-
-
-   
    .self-port {
        height: 150px;
        widows: 150px;
@@ -755,7 +762,7 @@ header  nav ul li a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 100px;
+    
 }
 
 
@@ -767,7 +774,7 @@ header  nav ul li a {
 
 @media screen and (min-width: 1000px) {
 .wrapper {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
 }
 
@@ -796,8 +803,15 @@ header  nav ul li a {
     color: white;
    align-self: center;
   font-size: 19.2px;
-  padding: 700px;
-  padding-top: 20px;
 }
 
+}
+
+
+
+
+@media screen and (min-width: 1500px) {
+    .about-me p {
+        width: 400px;
+    }
 }
