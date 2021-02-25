@@ -26,6 +26,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+
+
+
 body {
     line-height: 1;
     overflow-x: hidden;
@@ -74,6 +79,17 @@ a:active {
 }
 /* Colors end */
 
+
+
+.screenReader {
+    visibility: hidden;
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    overflow: hidden
+}
 /* Mobile View */
 
 .iconify {
@@ -89,7 +105,8 @@ a:active {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+background-color: #020714;
+    }
 
 
 
@@ -560,6 +577,7 @@ form label {
     margin-bottom: 5px;
     text-shadow: 2px 2px 2px var(--header-bg-color);
     font-weight: 700;
+    color: white;
 }
 .form-edit {
     font-family: 'titrillium web', sans-serif;
@@ -709,7 +727,7 @@ header  nav ul li a {
 
 #more-button {
     font-size: 26px;
-    color: red;
+    color: white;
     
 }
 
