@@ -786,3 +786,7 @@ header  nav ul li a {
 }
 
 }
+
+h1,h2,h3,p,a {
+    color: #000000;
+}
