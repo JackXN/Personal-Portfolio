@@ -125,8 +125,8 @@ header nav ul{
 header nav ul li a  {
     display: flex;
     justify-content: space-between;
-    color: white;
-    color: white;
+    color: #000000;
+    
     text-align: center;
     text-decoration: none;
     font-family: 'Josefin Sans',sans-serif;
@@ -235,12 +235,12 @@ main .self-port img {
 }
 
 #webDeveloper {
-    color: lightcyan;
+    color: #000000;
     
 }
 
 #city {
-    color: lightcyan;
+    color: #000000;
 }
 
 #more-button {
@@ -248,7 +248,7 @@ main .self-port img {
     top: 125px;
     /* border: solid white 1px; */
     padding: 15px 25px;
-    color: white;
+    color:#000000;
     font-family: 'Josefine Sans', sans-serif;
     font-weight: 400;
     font-size: regular;
@@ -301,11 +301,11 @@ main .self-port img {
 .projects .iconify {
     height: 120px;
     width: 120px;
-    color: white;
+    color: #000000;
 }
 
 .projects h1 {
-    color: white;
+    color: #000000;
     font-size: 32px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
@@ -368,7 +368,7 @@ main .self-port img {
 }
 
 .project-display p {
-    color: white;
+    color: #000000;
     font-family: 'Titrillium Web', sans-serif; 
     font-weight: 700;
     font-style: normal;
@@ -389,7 +389,7 @@ main .self-port img {
 .project-links a {
     font-family: 'Titrillium Web', sans-serif; 
     font-size: 16px;
-    color: white;
+    color: #000000;
     border: solid white 1px;
     padding: 10px;
     transition: color 0.3s, border 0.3s;
@@ -467,7 +467,7 @@ main .self-port img {
 
 
 .about-me h1 {
-    color: white;
+    color: #000000;
     font-size: 32px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
@@ -529,7 +529,7 @@ main .self-port img {
 }
 
 .contact h1 {
-    color: white;
+    color: #000000;
     font-size: 32px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
@@ -571,7 +571,7 @@ form label {
 
 .form-edit input {
 
-    border: solid white 1px;
+    border: solid #000000 1px;
     font-size: 20px;
     min-height: 40px;
     border-radius: 4px;
@@ -581,7 +581,7 @@ form label {
 
 .textarea-edit {
     margin-top: 30px;
-    border: solid white 1px;
+    border: solid #000000 1px;
     font-size: 20px;
     min-height: 40px;
     border-radius: 4px;
@@ -589,8 +589,8 @@ form label {
     text-align: center;
 }
 .contact-form button {
-   color: white;
-   border: solid white 1px;
+   color: #000000;
+   border: solid #000000 1px;
    border-radius: 4px;
 font-family: 'titrillium web', sans-serif;
 font-weight: 700;
@@ -631,7 +631,7 @@ footer {
 .footer-content a {
     padding: 50px;
     font-family: 'titrillium web', sans-serif;
-    color: white;
+    color: #000000;
     font-weight: 700;
 }
 
@@ -639,7 +639,7 @@ footer {
 
 .social-links .iconify{
     margin-top: 20px;
-    color: white;
+    color: #000000;
     font-size: 30px;
     padding: 10px;
 }
@@ -709,7 +709,7 @@ header  nav ul li a {
 
 #more-button {
     font-size: 26px;
-    color: red;
+    color: #000000;
     
 }
 
@@ -717,7 +717,7 @@ header  nav ul li a {
  .intro-text p {
     padding:260px;
     padding-top: 50px; 
-    color: white;
+    color:#000000;
 }
 
 .projects {
@@ -764,7 +764,7 @@ header  nav ul li a {
 
 #more-button {
     font-size: 24px;
-    border: solid white 1px;
+    border: solid #000000 1px;
     border-radius: 4px;
     padding: 20px 20px;
 }
@@ -776,7 +776,7 @@ header  nav ul li a {
 }
 
 .about-me p {
-    color: white;
+    color: #000000;
    align-self: center;
   font-size: 19.2px;
   padding: 700px;
