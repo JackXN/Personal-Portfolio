@@ -21,15 +21,32 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
+
+
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+#copyright {
+    color: white;
+    margin-top: 20px;
+}
 
 
 
+/* Cool header from twitter test */
+.cool-heading {
+    font-size: 5em;;
+    font-family: sans-serif;
+    -webkit-text-stroke: 1px;
+    -webkit-text-fill-color: transparent;
+}
 
 body {
     line-height: 1;
@@ -51,6 +68,8 @@ table {
 	border-spacing: 0;
 }
 
+
+
 html {
     scroll-behavior: smooth;
     background-image: url(Images/background-2.png);
@@ -66,6 +85,11 @@ html {
 a {
     text-decoration: none;
 }
+
+
+
+
+
 a:active {
     color: blue;
 }
@@ -143,10 +167,12 @@ header {
     background-color: #020714;
 }
 
+
 header nav ul{
     display: flex;
     
 }
+
 
 header nav ul li a  {
     display: flex;
@@ -583,6 +609,7 @@ main .self-port img {
 form {
     padding-top: 20px;
 }
+
 form label {
     display: flex;
     justify-content: center;
@@ -591,6 +618,11 @@ form label {
     font-weight: 700;
     color: white;
 }
+
+
+
+
+
 .form-edit {
     font-family: 'titrillium web', sans-serif;
     font-size: 15px;
@@ -698,7 +730,13 @@ footer {
 
 
 /* Media queries */
-
+@media screen and (min-width: 50px) {
+    header nav ul li a {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 @media screen and (min-width: 300px) {
     
